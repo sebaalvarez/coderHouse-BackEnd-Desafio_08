@@ -1,7 +1,6 @@
 // import path from "path";
 // import ProductManager from "../services/dao/filesystem/services/productManager.js";
 import ProductService from "../services/dao/db/services/products.service.js";
-
 // const pm = new ProductManager(path.join(".", "files"));
 const pm = new ProductService();
 

@@ -1,6 +1,12 @@
 import { Router } from "express";
-import { authToken, authSession } from "../utils.js";
-import { passportCall, authorization } from "../utils.js";
+
+import {
+  authToken,
+  authSession,
+  passportCall,
+  authorization,
+} from "../utils.js";
+
 import {
   getAllProducts,
   getProductById,
